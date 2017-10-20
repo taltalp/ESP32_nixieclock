@@ -175,12 +175,30 @@ NoConn ~ 3750 3400
 NoConn ~ 3750 3300
 NoConn ~ 3750 2800
 NoConn ~ 3750 2700
-NoConn ~ 3750 2600
-NoConn ~ 3750 2500
-NoConn ~ 3750 2400
-NoConn ~ 3750 2200
 NoConn ~ 3750 2100
 NoConn ~ 3750 2000
-NoConn ~ 3750 1900
-NoConn ~ 3750 1800
+Text GLabel 4000 1800 2    60   Output ~ 0
+led0
+Text GLabel 4000 1900 2    60   Output ~ 0
+led1
+Text GLabel 4000 2200 2    60   Output ~ 0
+led2
+Text GLabel 4000 2400 2    60   Output ~ 0
+led3
+Text GLabel 4000 2500 2    60   Output ~ 0
+led4
+Text GLabel 4000 2600 2    60   Output ~ 0
+led5
+Wire Wire Line
+	3750 1800 4000 1800
+Wire Wire Line
+	3750 1900 4000 1900
+Wire Wire Line
+	3750 2200 4000 2200
+Wire Wire Line
+	3750 2600 4000 2600
+Wire Wire Line
+	3750 2500 4000 2500
+Wire Wire Line
+	3750 2400 4000 2400
 $EndSCHEMATC
