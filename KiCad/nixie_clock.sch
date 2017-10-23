@@ -38,7 +38,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
 Title "ESP32 Nixie Clock"
-Date "2017-10-16"
+Date "2017-10-24"
 Rev ""
 Comp ""
 Comment1 ""

@@ -163,9 +163,6 @@ Wire Wire Line
 NoConn ~ 2550 1800
 NoConn ~ 2550 1900
 NoConn ~ 2550 2000
-NoConn ~ 2550 2700
-NoConn ~ 2550 2800
-NoConn ~ 2550 2900
 NoConn ~ 2550 3100
 NoConn ~ 2550 3200
 NoConn ~ 2550 3300
@@ -201,4 +198,16 @@ Wire Wire Line
 	3750 2500 4000 2500
 Wire Wire Line
 	3750 2400 4000 2400
+Text GLabel 2250 2700 0    60   Output ~ 0
+nxedot
+Text GLabel 2250 2800 0    60   Output ~ 0
+nxecol0
+Text GLabel 2250 2900 0    60   Output ~ 0
+nxecol1
+Wire Wire Line
+	2250 2700 2550 2700
+Wire Wire Line
+	2250 2800 2550 2800
+Wire Wire Line
+	2250 2900 2550 2900
 $EndSCHEMATC
