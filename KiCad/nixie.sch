@@ -710,28 +710,6 @@ F 3 "" H 3850 6450 50  0000 C CNN
 	1    3850 6450
 	1    0    0    -1  
 $EndComp
-$Comp
-L GND #PWR016
-U 1 1 59EF503E
-P 4450 7400
-F 0 "#PWR016" H 4450 7150 50  0001 C CNN
-F 1 "GND" H 4450 7250 50  0000 C CNN
-F 2 "" H 4450 7400 50  0000 C CNN
-F 3 "" H 4450 7400 50  0000 C CNN
-	1    4450 7400
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR017
-U 1 1 59EF5152
-P 5850 7400
-F 0 "#PWR017" H 5850 7150 50  0001 C CNN
-F 1 "GND" H 5850 7250 50  0000 C CNN
-F 2 "" H 5850 7400 50  0000 C CNN
-F 3 "" H 5850 7400 50  0000 C CNN
-	1    5850 7400
-	1    0    0    -1  
-$EndComp
 Text GLabel 4400 6050 0    60   Input ~ 0
 nxecol0
 Text GLabel 6050 6050 0    60   Input ~ 0
@@ -741,10 +719,10 @@ VNXE
 Text GLabel 5150 5250 0    60   Input ~ 0
 VNXE
 $Comp
-L +3.3V #PWR018
+L +3.3V #PWR016
 U 1 1 59EFD3BA
 P 4400 5250
-F 0 "#PWR018" H 4400 5100 50  0001 C CNN
+F 0 "#PWR016" H 4400 5100 50  0001 C CNN
 F 1 "+3.3V" H 4400 5390 50  0000 C CNN
 F 2 "" H 4400 5250 50  0000 C CNN
 F 3 "" H 4400 5250 50  0000 C CNN
@@ -752,10 +730,10 @@ F 3 "" H 4400 5250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR019
+L +3.3V #PWR017
 U 1 1 59EFDEAE
 P 6050 5250
-F 0 "#PWR019" H 6050 5100 50  0001 C CNN
+F 0 "#PWR017" H 6050 5100 50  0001 C CNN
 F 1 "+3.3V" H 6050 5390 50  0000 C CNN
 F 2 "" H 6050 5250 50  0000 C CNN
 F 3 "" H 6050 5250 50  0000 C CNN
@@ -838,15 +816,15 @@ Text Label 750  4150 3    60   ~ 0
 n4
 Text Label 650  4150 3    60   ~ 0
 n5
-Text Label 1050 5150 1    60   ~ 0
+Text Label 650  5150 1    60   ~ 0
 n6
-Text Label 950  5150 1    60   ~ 0
+Text Label 750  5150 1    60   ~ 0
 n7
 Text Label 850  5150 1    60   ~ 0
 n8
-Text Label 750  5150 1    60   ~ 0
+Text Label 950  5150 1    60   ~ 0
 n9
-Text Label 650  5150 1    60   ~ 0
+Text Label 1050 5150 1    60   ~ 0
 n0
 Text Label 1050 5300 3    60   ~ 0
 nm1
@@ -858,15 +836,15 @@ Text Label 750  5300 3    60   ~ 0
 nm4
 Text Label 650  5300 3    60   ~ 0
 nm5
-Text Label 1050 6300 1    60   ~ 0
+Text Label 650  6300 1    60   ~ 0
 nm6
-Text Label 950  6300 1    60   ~ 0
+Text Label 750  6300 1    60   ~ 0
 nm7
 Text Label 850  6300 1    60   ~ 0
 nm8
-Text Label 750  6300 1    60   ~ 0
+Text Label 950  6300 1    60   ~ 0
 nm9
-Text Label 650  6300 1    60   ~ 0
+Text Label 1050 6300 1    60   ~ 0
 nm0
 $Comp
 L CONN_02X05 P3
@@ -1458,29 +1436,29 @@ Text Label 7850 2850 3    60   ~ 0
 nc4
 Text Label 9350 2850 3    60   ~ 0
 nc5
-Text Label 10800 3650 3    60   ~ 0
+Text Label 10400 3650 3    60   ~ 0
 nc0
-Text Label 10700 3650 3    60   ~ 0
+Text Label 10500 3650 3    60   ~ 0
 nc1
 Text Label 10600 3650 3    60   ~ 0
 nc2
-Text Label 10500 3650 3    60   ~ 0
+Text Label 10700 3650 3    60   ~ 0
 nc3
-Text Label 10400 3650 3    60   ~ 0
+Text Label 10800 3650 3    60   ~ 0
 nc4
-Text Label 10400 4850 1    60   ~ 0
+Text Label 10800 4850 1    60   ~ 0
 nc5
-Text Label 10400 6300 1    60   ~ 0
+Text Label 10800 6300 1    60   ~ 0
 nmc5
-Text Label 10400 5100 3    60   ~ 0
+Text Label 10800 5100 3    60   ~ 0
 nmc4
-Text Label 10500 5100 3    60   ~ 0
+Text Label 10700 5100 3    60   ~ 0
 nmc3
 Text Label 10600 5100 3    60   ~ 0
 nmc2
-Text Label 10700 5100 3    60   ~ 0
+Text Label 10500 5100 3    60   ~ 0
 nmc1
-Text Label 10800 5100 3    60   ~ 0
+Text Label 10400 5100 3    60   ~ 0
 nmc0
 Wire Wire Line
 	3850 3800 3850 5200
@@ -1490,9 +1468,9 @@ Text Label 3850 5200 1    60   ~ 0
 ndot
 Text Label 3850 5500 3    60   ~ 0
 nmdot
-Text Label 10600 4850 1    60   ~ 0
+Text Label 10700 4850 1    60   ~ 0
 ndot
-Text Label 10600 6300 1    60   ~ 0
+Text Label 10700 6300 1    60   ~ 0
 nmdot
 Text Label 5550 6050 2    60   ~ 0
 nmcol0
@@ -1502,23 +1480,21 @@ Text Label 5350 6400 2    60   ~ 0
 ncol0
 Text Label 7000 6400 2    60   ~ 0
 ncol1
-Text Label 10700 6300 1    60   ~ 0
+Text Label 10500 6300 1    60   ~ 0
 nmcol0
-Text Label 10800 6300 1    60   ~ 0
+Text Label 10600 6300 1    60   ~ 0
 nmcol1
-Text Label 10700 4850 1    60   ~ 0
+Text Label 10500 4850 1    60   ~ 0
 ncol0
-Text Label 10800 4850 1    60   ~ 0
+Text Label 10600 4850 1    60   ~ 0
 ncol1
-NoConn ~ 10500 4850
-NoConn ~ 10500 6300
 $Comp
 L IN-3 NT7
 U 1 1 59F09F28
 P 4450 6750
 F 0 "NT7" V 4230 6720 60  0000 C CNN
 F 1 "IN-3" V 4150 6730 60  0000 C CNN
-F 2 "" H 4450 6750 60  0000 C CNN
+F 2 "nixie_clock:IN-3" H 4450 6750 60  0001 C CNN
 F 3 "" H 4450 6750 60  0000 C CNN
 	1    4450 6750
 	1    0    0    -1  
@@ -1529,7 +1505,7 @@ U 1 1 59F09FB3
 P 5000 6750
 F 0 "NT8" V 4780 6720 60  0000 C CNN
 F 1 "IN-3" V 4700 6730 60  0000 C CNN
-F 2 "" H 5000 6750 60  0000 C CNN
+F 2 "nixie_clock:IN-3" H 5000 6750 60  0001 C CNN
 F 3 "" H 5000 6750 60  0000 C CNN
 	1    5000 6750
 	1    0    0    -1  
@@ -1540,7 +1516,7 @@ U 1 1 59F0A02E
 P 5850 6750
 F 0 "NT9" V 5630 6720 60  0000 C CNN
 F 1 "IN-3" V 5550 6730 60  0000 C CNN
-F 2 "" H 5850 6750 60  0000 C CNN
+F 2 "nixie_clock:IN-3" H 5850 6750 60  0001 C CNN
 F 3 "" H 5850 6750 60  0000 C CNN
 	1    5850 6750
 	1    0    0    -1  
@@ -1551,9 +1527,17 @@ U 1 1 59F0A0AD
 P 6400 6750
 F 0 "NT10" V 6180 6720 60  0000 C CNN
 F 1 "IN-3" V 6100 6730 60  0000 C CNN
-F 2 "" H 6400 6750 60  0000 C CNN
+F 2 "nixie_clock:IN-3" H 6400 6750 60  0001 C CNN
 F 3 "" H 6400 6750 60  0000 C CNN
 	1    6400 6750
 	1    0    0    -1  
 $EndComp
+Text Label 10400 4850 1    60   ~ 0
+ngnd
+Text Label 10400 6300 1    60   ~ 0
+nmgnd
+Text Label 5850 7400 1    60   ~ 0
+ngnd
+Text Label 4450 7400 1    60   ~ 0
+ngnd
 $EndSCHEMATC
