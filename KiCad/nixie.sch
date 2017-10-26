@@ -808,41 +808,41 @@ F 3 "" H 850 4600 50  0000 C CNN
 $EndComp
 Text Label 1050 4150 3    60   ~ 0
 n1
-Text Label 950  4150 3    60   ~ 0
-n2
-Text Label 850  4150 3    60   ~ 0
-n3
-Text Label 750  4150 3    60   ~ 0
-n4
-Text Label 650  4150 3    60   ~ 0
-n5
-Text Label 650  5150 1    60   ~ 0
-n6
 Text Label 750  5150 1    60   ~ 0
+n2
+Text Label 650  5150 1    60   ~ 0
+n3
+Text Label 850  4150 3    60   ~ 0
+n4
+Text Label 950  4150 3    60   ~ 0
+n5
+Text Label 750  4150 3    60   ~ 0
+n6
+Text Label 650  4150 3    60   ~ 0
 n7
-Text Label 850  5150 1    60   ~ 0
-n8
 Text Label 950  5150 1    60   ~ 0
+n8
+Text Label 850  5150 1    60   ~ 0
 n9
 Text Label 1050 5150 1    60   ~ 0
 n0
 Text Label 1050 5300 3    60   ~ 0
 nm1
-Text Label 950  5300 3    60   ~ 0
-nm2
-Text Label 850  5300 3    60   ~ 0
-nm3
-Text Label 750  5300 3    60   ~ 0
-nm4
-Text Label 650  5300 3    60   ~ 0
-nm5
-Text Label 650  6300 1    60   ~ 0
-nm6
 Text Label 750  6300 1    60   ~ 0
+nm2
+Text Label 650  6300 1    60   ~ 0
+nm3
+Text Label 850  5300 3    60   ~ 0
+nm4
+Text Label 950  5300 3    60   ~ 0
+nm5
+Text Label 750  5300 3    60   ~ 0
+nm6
+Text Label 650  5300 3    60   ~ 0
 nm7
-Text Label 850  6300 1    60   ~ 0
-nm8
 Text Label 950  6300 1    60   ~ 0
+nm8
+Text Label 850  6300 1    60   ~ 0
 nm9
 Text Label 1050 6300 1    60   ~ 0
 nm0
@@ -1540,4 +1540,15 @@ Text Label 5850 7400 1    60   ~ 0
 ngnd
 Text Label 4450 7400 1    60   ~ 0
 ngnd
+$Comp
+L GND #PWR018
+U 1 1 59F225AA
+P 10400 6300
+F 0 "#PWR018" H 10400 6050 50  0001 C CNN
+F 1 "GND" H 10400 6150 50  0000 C CNN
+F 2 "" H 10400 6300 50  0000 C CNN
+F 3 "" H 10400 6300 50  0000 C CNN
+	1    10400 6300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
