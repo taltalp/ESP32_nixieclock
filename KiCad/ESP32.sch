@@ -134,11 +134,11 @@ Text GLabel 2250 2600 0    60   Output ~ 0
 nxecom5
 Text GLabel 4000 3200 2    60   Output ~ 0
 nxea
-Text GLabel 4000 3100 2    60   Output ~ 0
-nxeb
 Text GLabel 4000 3000 2    60   Output ~ 0
-nxec
+nxeb
 Text GLabel 4000 2900 2    60   Output ~ 0
+nxec
+Text GLabel 4000 3100 2    60   Output ~ 0
 nxed
 Wire Wire Line
 	2250 2100 2550 2100
